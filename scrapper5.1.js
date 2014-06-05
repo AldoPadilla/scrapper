@@ -26,7 +26,9 @@ request(url, (function(week) { return function(err, resp, body){
 			 			chart.push(rank);
 
               		console.log(week + ';' + rank);                              //print the urls
-                    
+
+
+
 		});
 	}
 };
